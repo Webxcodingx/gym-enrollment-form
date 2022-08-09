@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Muscle Gym Joining Form</title>
+  </head>
+  <body>
+    <div id="admission-form">
+      <h2>Muscle Gym Member Registration</h2>
+      <form>
+        Name: <input type="text" placeholder="Firstname" />
+        <input type="text" placeholder="Lastname" /> <br />
+        <br />
+        Phone Number: <input type="tel" /> <br />
+        <br />
+        Email: <input type="email" /> <br />
+        <br />
+        Age: <input type="number" /> <br />
+        <br />
+        Date of Birth: <input type="date" /> <br />
+        <br />
+        Gender:
+        <input type="radio" name="gender" value="male" /> Male
+        <input type="radio" name="gender" value="female" /> Female
+        <br />
+        Address: <textarea cols="30" rows="5"></textarea> <br />
+        <br />
+        <fieldset>
+          <legend>Membership Details</legend>
+          Joining Date: <input type="date" /> <br />
+          Memebership Type:
+          <input type="radio" name="membership" value="Basic" /> Basic (Gym)
+          <input type="radio" name="membership" value="Gold" /> Gold (Gym +
+          Cardio)
+          <input type="radio" name="membership" value="Premium" /> Premium (Gym
+          + Cardio + Crossfit) <br />
+          <br />
+          Duration:
+          <select>
+            <option value="1">1 Month</option>
+            <option value="3">3 Months</option>
+            <option value="6">6 Months</option>
+            <option value="12">1 Year</option></select
+          ><br />
+          <br />
+          Are you interested in any of the following? <br />
+          <input type="checkbox" name="add-on" value="yoga" /> Yoga
+          <input type="checkbox" name="add-on" value="free=pt" /> Free PT Trail
+          <input type="checkbox" name="add-on" value="zumba" /> Zumba
+          <input type="checkbox" name="add-on" value="piloxing" /> Piloxing
+          <input type="checkbox" name="add-on" value="diet" /> Diet Plan
+        </fieldset>
+        <br />
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button> 
+      </form> <br>
+      <a href="/src/index.html">Back</a>
+      
+  </body>
+</html>
